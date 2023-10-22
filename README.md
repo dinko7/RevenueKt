@@ -1,7 +1,7 @@
 # RevenueKt
 Kotlin coroutines wrapper for RevenueCat Android SDK.
 
-## [Methods Covered](#methods-covered)
+## Methods Covered
 
 | RevenueCat Method | RevenueKt Coroutine Method                                                |
 |-------------------|---------------------------------------------------------------------------|
@@ -30,7 +30,7 @@ implementation("com.yourusername.revenuekt:revenuekt:1.0.0")
 
 
 
-## [Example Usage](#example-usage)
+## Example Usage
 
 ```kotlin
 try {
@@ -50,11 +50,11 @@ try {
 // ... and similarly for other methods
 ```
 
-## [Future Plans](#future-plans)
+## Future Plans
 - [ ] Unit Tests
 
 
-## [License](#licence)
+## License
 
 This project is licensed under the MIT License - a permissive license that allows for free use, modification, and distribution, provided that the license and copyright notice are included in all copies or substantial portions of the software.
 
