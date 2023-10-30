@@ -11,9 +11,13 @@ Kotlin coroutines wrapper for RevenueCat Android SDK.
 | `logIn(String, LogInCallback)` | `suspend fun Purchases.logIn(newAppUserID: String): PurchasesLoginResult` |
 | `logOut(ReceiveCustomerInfoCallback)` | `suspend fun Purchases.logOut(): CustomerInfo`                            |
 | `restorePurchases(ReceiveCustomerInfoCallback)` | `suspend fun Purchases.restorePurchases(): CustomerInfo`                  |
+| `getProducts(List<String>, ProductType?, GetStoreProductsCallback)` | `suspend fun Purchases.getProducts(productIds: List<String>, type: ProductType? = null): List<StoreProduct>` |
 
-## Installation
+## Installation (coming soon)
 
+For now feel free to copy `revenuekt` to your project.
+
+<!-- TODO: enable later when Maven Central Repo is up
 ### For Groovy
 ```gradle
 dependencies {
@@ -27,7 +31,7 @@ dependencies {
 implementation("com.yourusername.revenuekt:revenuekt:1.0.0")
 }
 ```
-
+ -->
 
 
 ## Example Usage
